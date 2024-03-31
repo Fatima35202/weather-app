@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="C:\Users\Maryam's PC\Downloads\weatherapp.jpeg" alt="Background Image" id="backgroundImage">
+            <!-- Rest of your HTML content goes here -->
+    <div class="container">
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button onclick="searchWeather()">Search</button>
+        <div id="weatherInfo"></div>
+        <div id="forecastInfo" class="forecast-container"></div>
+        <hr>
+        <h2>Compare Temperatures</h2>
+        <div class="comparison-inputs">
+            <input type="text" class="cityInput" placeholder="Enter city name">
+            <input type="text" class="cityInput" placeholder="Enter city name">
+            <input type="text" class="cityInput" placeholder="Enter city name">
+            <button onclick="compareWeather()">Compare</button>
+        </div>
+        <div id="comparisonInfo"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
