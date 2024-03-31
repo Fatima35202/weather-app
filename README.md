@@ -1,3 +1,2 @@
 # weather-app
-project completed
-my project
+my project completed
